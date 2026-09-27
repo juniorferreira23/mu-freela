@@ -21,11 +21,13 @@ from anticaptchaofficial.hcaptchaproxyless import hCaptchaProxyless
 print = partial(print, flush=True)
 load_dotenv()
 
-ADB = r"C:\Program Files\BlueStacks_msi5\HD-Adb.exe"
-EMULADOR = "127.0.0.1:5555"
+ADB = r"C:\Program Files\BlueStacks_nxt\HD-Adb.exe"
+EMULADOR = "emulator-5554"  # serial do BlueStacks oficial (veja com: HD-Adb.exe devices)
 PORTA_BASE = 9223
 DOMINIO_CAPTCHA = "webview.muaway.net"
 
+# O app espera o sufixo "#ok" no final (assinatura real capturada de uma
+# resolucao manual: 'NativeBridge RECEIVE message hcaptcha=<token>#ok').
 JS_INJETAR_TOKEN = """
 (token) => {
     document.querySelectorAll(
@@ -35,13 +37,44 @@ JS_INJETAR_TOKEN = """
         campo.innerHTML = token;
         campo.dispatchEvent(new Event('change', { bubbles: true }));
     });
-    NativeBridge.sendMessage("hcaptcha=" + token);
+    NativeBridge.sendMessage("hcaptcha=" + token + "#ok");
 }
 """
 
+# Marcadores reais observados no logcat do emulador (resolucao manual):
+# - SUCESSO: resposta HTTP 200 de http://auth.muaway.net/hCaptcha
+# - FALHA:   "Captcha token validation failed" / "token error" / "hcaptcha_error"
+MARCADOR_SUCESSO = ("code=200", "auth.muaway.net/hCaptcha")
+MARCADORES_FALHA = ("Captcha token validation failed", "token error", "hcaptcha_error")
+TIMEOUT_VALIDACAO = 90  # segundos esperando o logcat confirmar
+
+
+def limpar_logcat():
+    try:
+        adb("logcat", "-c")
+    except Exception:
+        pass
+
+
+def aguardar_validacao():
+    """Observa o logcat ate o servidor aceitar/rejeitar o token (ou timeout)."""
+    inicio = time.time()
+    while time.time() - inicio < TIMEOUT_VALIDACAO:
+        try:
+            saida = adb("logcat", "-d").stdout
+        except Exception:
+            saida = ""
+        for linha in saida.splitlines():
+            if all(m in linha for m in MARCADOR_SUCESSO):
+                return True
+            if any(m in linha for m in MARCADORES_FALHA):
+                return False
+        time.sleep(2)
+    return None  # timeout: sem confirmacao
+
 
 def adb(*args):
-    return subprocess.run([ADB, *args], capture_output=True, text=True, timeout=30)
+    return subprocess.run([ADB, "-s", EMULADOR, *args], capture_output=True, text=True, timeout=30)
 
 
 def main():
@@ -50,7 +83,7 @@ def main():
         sys.exit("CAPTCHA_API_KEY nao definida no .env")
 
     # 1. Descobre todos os sockets devtools e cria forwards
-    adb("connect", EMULADOR)
+    adb("connect", "127.0.0.1:5555")
     unix = adb("shell", "cat /proc/net/unix").stdout
     sockets = []
     for nome in re.findall(r"(?:chrome|webview)_devtools_remote_\d+", unix):

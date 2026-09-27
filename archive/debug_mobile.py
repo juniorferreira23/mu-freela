@@ -15,23 +15,23 @@ import subprocess
 import sys
 import urllib.request
 
-ADB = r"C:\Program Files\BlueStacks_msi5\HD-Adb.exe"
-EMULADOR = "127.0.0.1:5555"
+ADB = r"C:\Program Files\BlueStacks_nxt\HD-Adb.exe"
+EMULADOR = "emulator-5554"  # serial do BlueStacks oficial (veja com: HD-Adb.exe devices)
 PORTA_BASE = 9223
 DOMINIO_CAPTCHA = "webview.muaway.net"
 
 
 def adb(*args):
-    return subprocess.run([ADB, *args], capture_output=True, text=True, timeout=30)
+    return subprocess.run([ADB, "-s", EMULADOR, *args], capture_output=True, text=True, timeout=30)
 
 
 def main():
     print("=== 1. Testando conexao ADB ===")
-    r = adb("connect", EMULADOR)
+    r = adb("connect", "127.0.0.1:5555")
     print(r.stdout.strip() or r.stderr.strip())
     devs = adb("devices").stdout
     print(devs.strip())
-    if EMULADOR not in devs or "offline" in devs:
+    if "device" not in devs:
         print("\n[ERRO] Emulador nao conectado. Ative o ADB nas config do BlueStacks.")
         sys.exit(1)
 

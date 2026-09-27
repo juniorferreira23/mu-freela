@@ -12,7 +12,10 @@ Resolve automaticamente o captcha (hCaptcha) do MuAwaY conectando direto no WebV
 
 | Arquivo | Função |
 |---|---|
-| `main.py` | Script principal (usar este) |
+| `main.py` | Script principal desktop (usar este) — fica vigiando e resolve quantos captchas aparecerem |
+| `main_mobile.py` | Mesmo sentinela, mas para o jogo rodando em emulador Android |
+| `resolver_uma_vez.py` | Versão "one-shot": resolve um captcha aberto no emulador e sai |
+| `debug_mobile.py` | Diagnóstico do emulador (PID, socket, página, ponte NativeBridge) |
 | `set_webview_debug.reg` | Chave de registro que habilita a porta CDP 9222 |
 | `SOLUCAO.md` | Explicação técnica de como a solução foi desenvolvida |
 | `.env` | Sua chave da API anti-captcha (não comitar) |
@@ -69,6 +72,51 @@ CAPTCHA_API_KEY=sua_chave_aqui
 | Timeout ao conectar na porta 9222 | Registro não aplicado, ou jogo aberto **antes** de aplicar o registro (reabra o jogo) |
 | `ERROR_ZERO_BALANCE` | Sem créditos na conta anti-captcha |
 | `CAPTCHA_API_KEY nao definida` | Falta o arquivo `.env` na pasta |
+
+## Modo emulador (mobile)
+
+Também é possível resolver o captcha do **MuAwaY mobile** rodando no BlueStacks.
+
+### Pré-requisitos
+
+- **BlueStacks 5 oficial** instalado (`C:\Program Files\BlueStacks_nxt`).
+  > **Importante:** use o BlueStacks oficial, **não** o MSI App Player. No MSI App Player o app do MuAwaY rejeita os tokens resolvidos (validação falha para qualquer token); com o BlueStacks oficial funciona.
+- ADB habilitado: no BlueStacks, abra **Configurações > Avançado** e ative a **Android Debug Bridge (ADB)**.
+- App MuAwaY instalado no emulador e jogo logado.
+
+### Uso
+
+Sentinela contínuo (resolve quantos captchas aparecerem):
+
+```
+.venv\Scripts\python main_mobile.py
+```
+
+One-shot (resolve o captcha aberto agora e sai):
+
+```
+.venv\Scripts\python resolver_uma_vez.py
+```
+
+O script conecta no emulador via ADB, descobre o socket de depuração do WebView do app, faz o forward para a porta local 9223 e injeta o token chamando `NativeBridge.sendMessage("hcaptcha=" + token)` — a ponte que o app escuta no Android.
+
+### Diagnóstico
+
+Se algo não funcionar, rode:
+
+```
+.venv\Scripts\python debug_mobile.py
+```
+
+Ele mostra PID do app, sockets de depuração, forward ativo, páginas abertas e diz se a ponte `NativeBridge` está disponível.
+
+### Solução de problemas (mobile)
+
+| Problema | Causa provável |
+|---|---|
+| `WebView do jogo nao encontrado no emulador` | Emulador fechado ou o jogo não está aberto |
+| Nada detectado com o captcha na tela | ADB desligado no emulador, ou serial do device mudou |
+| App rejeita todos os tokens | Você está no MSI App Player — use o BlueStacks oficial |
 
 ## Desinstalando
 

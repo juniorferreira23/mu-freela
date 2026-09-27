@@ -33,8 +33,8 @@ from anticaptchaofficial.hcaptchaproxyless import hCaptchaProxyless
 
 load_dotenv()
 
-ADB = r"C:\Program Files\BlueStacks_msi5\HD-Adb.exe"
-EMULADOR = "127.0.0.1:5555"
+ADB = r"C:\Program Files\BlueStacks_nxt\HD-Adb.exe"
+EMULADOR = "emulator-5554"  # serial do BlueStacks oficial (veja com: HD-Adb.exe devices)
 PORTA_LOCAL = 9223
 DOMINIO_CAPTCHA = "webview.muaway.net"
 
@@ -51,13 +51,13 @@ JS_INJETAR_TOKEN = """
         campo.innerHTML = token;
         campo.dispatchEvent(new Event('change', { bubbles: true }));
     });
-    NativeBridge.sendMessage("hcaptcha=" + token);
+    NativeBridge.sendMessage("hcaptcha=" + token + "#ok");
 }
 """
 
 
 def adb(*args):
-    return subprocess.run([ADB, *args], capture_output=True, text=True, timeout=30)
+    return subprocess.run([ADB, "-s", EMULADOR, *args], capture_output=True, text=True, timeout=30)
 
 
 def garantir_forwards():
@@ -67,7 +67,7 @@ def garantir_forwards():
     a pagina do captcha pode estar em qualquer um deles.
     Retorna lista de portas locais com forward ativo.
     """
-    adb("connect", EMULADOR)
+    adb("connect", "127.0.0.1:5555")
     saida = adb("shell", "cat /proc/net/unix").stdout
     sockets = []
     for nome in re.findall(r"(?:chrome|webview)_devtools_remote_\d+", saida):
@@ -115,18 +115,20 @@ def buscar_pagina_captcha(playwright, portas):
     return None, None
 
 
-def resolver_captcha(pagina, api_key):
-    """Resolve o captcha aberto. Retorna True se injetou com sucesso."""
-    url = pagina.url
-    sitekey = parse_qs(urlparse(url).query).get("sitekey", [None])[0]
-    if not sitekey:
-        html = pagina.content()
-        match = re.search(r"sitekey[\"'=:\s]+([0-9a-f-]{36})", html)
-        if match:
-            sitekey = match.group(1)
-    if not sitekey:
-        print("[-] Sitekey nao encontrado na pagina")
-        return False
+def limpar_logcat():
+    try:
+        adb("logcat", "-c")
+    except Exception:
+        pass
+
+
+def aguardar_validacao():
+    """Observa o logcat ate o servidor aceitar/rejeitar o token (ou timeout)."""
+    inicio = time.time()
+    while time.time() - inicio < TIMEOUT_VALIDACAO:
+        try:
+            saida = adb("logcat", "-d").stdout
+        except Exception:
     print(f"[+] Sitekey: {sitekey}")
 
     # nonce para furar o cache do anti-captcha e garantir token FRESCO
@@ -147,9 +149,19 @@ def resolver_captcha(pagina, api_key):
         return False
 
     print(f"[+] Token recebido ({len(resposta)} chars)")
+    limpar_logcat()
     pagina.evaluate(JS_INJETAR_TOKEN, resposta)
-    print("[+] Token injetado e enviado ao app. Verifique o emulador.")
-    return True
+    print("[+] Token injetado (com sufixo #ok). Aguardando validacao do servidor...")
+
+    resultado = aguardar_validacao()
+    if resultado is True:
+        print("[+] SUCESSO REAL: servidor aceitou o token (HTTP 200 em auth.muaway.net/hCaptcha).")
+        return True
+    if resultado is False:
+        print("[-] FALHA REAL: logcat registrou erro de captcha (token rejeitado).")
+        return False
+    print("[?] Sem confirmacao no logcat dentro do timeout (tratando como falha).")
+    return False
 
 
 def main():

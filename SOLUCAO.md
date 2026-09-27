@@ -67,3 +67,15 @@ O escopo é só para o executável do jogo — não afeta mais nada no sistema. 
 ## Resumo em uma frase
 
 Em vez de simular um usuário num navegador externo, descobrimos que a página do captcha é um componente WebView2 embutido no jogo, abrimos sua porta de depuração via política de registro (única forma que funciona com app elevado) e injetamos o token resolvido pelo canal de mensagens que o próprio jogo escuta.
+
+## Adendo — versão mobile (emulador)
+
+A solução foi estendida para o MuAwaY mobile rodando no BlueStacks. As diferenças em relação ao desktop:
+
+1. **Acesso ao WebView:** o app Android habilita `setWebContentsDebuggingEnabled(true)`, expondo um socket local `chrome_devtools_remote_<pid>` (visível em `/proc/net/unix`). O acesso é feito via ADB: `adb forward tcp:9223 localabstract:chrome_devtools_remote_<pid>`. Como o app cria múltiplos processos WebView e o PID pode mudar, o script varre todos os sockets e refaz o forward periodicamente.
+
+2. **Ponte de retorno diferente:** no Android não existe `window.chrome.webview`. A página do captcha chama `NativeBridge.sendMessage("hcaptcha=" + token)` — uma ponte Java exposta pelo app. A injeção usa essa chamada.
+
+3. **Armadilha encontrada:** no **MSI App Player** a ponte aceita a mensagem, mas o app responde `Captcha token validation failed` para qualquer token válido. Com o **BlueStacks 5 oficial** o mesmo token passa (`Captcha token validation success`). Conclusão: a automação estava correta; o emulador MSI tinha alguma divergência no ambiente de validação. Requisito firme: usar BlueStacks oficial.
+
+Os scripts mobile são `main_mobile.py` (sentinela), `resolver_uma_vez.py` (one-shot) e `debug_mobile.py` (diagnóstico).
