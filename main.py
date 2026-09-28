@@ -23,6 +23,7 @@ from urllib.parse import urlparse, parse_qs
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
 from anticaptchaofficial.hcaptchaproxyless import hCaptchaProxyless
+from twocaptcha import TwoCaptcha, ApiException as TwoCaptchaException
 
 load_dotenv()
 
@@ -58,15 +59,8 @@ def buscar_pagina_captcha(playwright):
     return navegador, None
 
 
-def resolver_captcha(pagina, api_key):
-    """Resolve o captcha da pagina atual e injeta o token. Retorna True se enviou."""
-    url = pagina.url
-    sitekey = parse_qs(urlparse(url).query).get("sitekey", [None])[0]
-    if not sitekey:
-        print("[-] Sitekey nao encontrada na URL da pagina")
-        return False
-    print(f"[+] Captcha detectado. Sitekey: {sitekey}")
-
+def resolver_via_anticaptcha(url, sitekey, api_key):
+    """Tenta resolver via anti-captcha. Retorna (token, sem_saldo) ou (None, sem_saldo)."""
     solver = hCaptchaProxyless()
     solver.set_verbose(1)
     solver.set_key(api_key)
@@ -77,14 +71,55 @@ def resolver_captcha(pagina, api_key):
     resposta = solver.solve_and_return_solution()
 
     if resposta == 0:
-        if solver.error_id == 1:  # ERROR_ZERO_BALANCE: saldo/creditos esgotados
+        sem_saldo = solver.error_id == 1  # ERROR_ZERO_BALANCE
+        if not sem_saldo:
+            print(f"[-] Falha no anti-captcha: {solver.err_string}")
+        return None, sem_saldo
+    return resposta, False
+
+
+def resolver_via_2captcha(url, sitekey, api_key):
+    """Tenta resolver via 2captcha (fallback). Retorna o token ou None."""
+    solver = TwoCaptcha(api_key)
+    print("[*] Resolvendo captcha via 2captcha (pode levar ~1 min)...")
+    try:
+        resultado = solver.hcaptcha(sitekey=sitekey, url=url)
+    except TwoCaptchaException as e:
+        print(f"[-] Falha no 2captcha: {e}")
+        if "ERROR_ZERO_BALANCE" in str(e):
             print("\n" + "=" * 70)
-            print("[!!!] SALDO DA API ANTI-CAPTCHA ESGOTADO (ERROR_ZERO_BALANCE)")
-            print("[!!!] Recarregue creditos em https://anti-captcha.com e rode o")
-            print("[!!!] script novamente. Encerrando para nao ficar tentando a toa.")
+            print("[!!!] SALDO DAS DUAS APIS ESGOTADO (anti-captcha e 2captcha)")
+            print("[!!!] Recarregue creditos e rode o script novamente.")
             print("=" * 70)
             sys.exit(2)
-        print(f"[-] Falha ao resolver: {solver.err_string}")
+        return None
+    return resultado["code"]
+
+
+def resolver_captcha(pagina, api_key, api_key_2captcha):
+    """Resolve o captcha da pagina atual e injeta o token. Retorna True se enviou."""
+    url = pagina.url
+    sitekey = parse_qs(urlparse(url).query).get("sitekey", [None])[0]
+    if not sitekey:
+        print("[-] Sitekey nao encontrada na URL da pagina")
+        return False
+    print(f"[+] Captcha detectado. Sitekey: {sitekey}")
+
+    resposta, sem_saldo = resolver_via_anticaptcha(url, sitekey, api_key)
+
+    if resposta is None and sem_saldo:
+        print("[!] Anti-captcha sem saldo (ERROR_ZERO_BALANCE). "
+              "Tentando fallback no 2captcha...")
+        if not api_key_2captcha:
+            print("\n" + "=" * 70)
+            print("[!!!] SALDO DA API ANTI-CAPTCHA ESGOTADO (ERROR_ZERO_BALANCE)")
+            print("[!!!] Sem chave CAPTCHA_2CAPTCHA_API_KEY configurada para")
+            print("[!!!] fallback. Recarregue creditos ou configure o 2captcha.")
+            print("=" * 70)
+            sys.exit(2)
+        resposta = resolver_via_2captcha(url, sitekey, api_key_2captcha)
+
+    if resposta is None:
         return False
 
     print(f"[+] Token recebido ({len(resposta)} chars)")
@@ -100,6 +135,7 @@ def main():
     api_key = os.getenv("CAPTCHA_API_KEY")
     if not api_key:
         sys.exit("CAPTCHA_API_KEY nao definida no .env")
+    api_key_2captcha = os.getenv("CAPTCHA_2CAPTCHA_API_KEY")  # fallback opcional
 
     print(f"[*] Monitorando o captcha do jogo (a cada {INTERVALO_SEGUNDOS}s).")
     print("[*] Deixe este script rodando enquanto joga. Ctrl+C para sair.\n")
@@ -112,7 +148,7 @@ def main():
                 navegador, pagina = buscar_pagina_captcha(p)
 
                 if pagina is not None:
-                    if resolver_captcha(pagina, api_key):
+                    if resolver_captcha(pagina, api_key, api_key_2captcha):
                         resolucoes += 1
                         print(f"[*] Total resolvido nesta sessao: {resolucoes}. "
                               f"Aguardando proximo captcha...\n")

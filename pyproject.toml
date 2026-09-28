@@ -6,7 +6,13 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "anticaptchaofficial>=1.0.70",
+    "2captcha-python>=1.5.0",
     "playwright>=1.63.0",
     "selenium>=4.48.0",
     "webdriver-manager>=4.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.0",
 ]

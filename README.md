@@ -47,11 +47,31 @@ Não é necessário `playwright install` (não baixamos navegador; conectamos no
 
 ### 3. Configurar a chave da API
 
-Crie uma conta em [anti-captcha.com](https://anti-captcha.com), adicione créditos e crie o arquivo `.env` na pasta do projeto:
+Crie uma conta em [anti-captcha.com](https://anti-captcha.com), adicione créditos e crie o arquivo `.env` na pasta do projeto (modelo em `.env.example`):
 
 ```
 CAPTCHA_API_KEY=sua_chave_aqui
 ```
+
+### Fallback 2captcha (opcional)
+
+Se o anti-captcha ficar sem créditos, o script tenta resolver pelo [2captcha](https://2captcha.com) automaticamente. Basta adicionar no `.env`:
+
+```
+CAPTCHA_2CAPTCHA_API_KEY=sua_chave_2captcha_aqui
+```
+
+O token resolvido pelo 2captcha é injetado no jogo da mesma forma.
+
+## Build do executável (sem repo/Python)
+
+Para gerar um `.exe` standalone (cliente não precisa de Python nem do repositório):
+
+```
+.\build-exe.ps1
+```
+
+Isso gera `dist/mu-captcha-resolver.exe`. Para distribuir, copie o `.exe` junto com um arquivo `.env` (modelo em `.env.example`) na mesma pasta — o executável lê o `.env` do diretório de onde ele é executado. Uso idêntico: abra o jogo com a janela de captcha e rode o `.exe`.
 
 ## Uso diário
 

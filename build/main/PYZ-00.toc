@@ -1,0 +1,3338 @@
+('C:\\Users\\Junior Ferreira\\Desktop\\mu-freela\\build\\main\\PYZ-00.pyz',
+ [('__future__',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_ast_unparse',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_ast_unparse.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_osx_support.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_py_warnings',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_py_warnings.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyrepl',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\__init__.py',
+   'PYMODULE'),
+  ('_pyrepl._module_completer',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\_module_completer.py',
+   'PYMODULE'),
+  ('_pyrepl._threading_handler',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\_threading_handler.py',
+   'PYMODULE'),
+  ('_pyrepl.base_eventqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\base_eventqueue.py',
+   'PYMODULE'),
+  ('_pyrepl.commands',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\commands.py',
+   'PYMODULE'),
+  ('_pyrepl.completing_reader',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\completing_reader.py',
+   'PYMODULE'),
+  ('_pyrepl.console',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\console.py',
+   'PYMODULE'),
+  ('_pyrepl.fancy_termios',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\fancy_termios.py',
+   'PYMODULE'),
+  ('_pyrepl.historical_reader',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\historical_reader.py',
+   'PYMODULE'),
+  ('_pyrepl.input',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\input.py',
+   'PYMODULE'),
+  ('_pyrepl.keymap',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\keymap.py',
+   'PYMODULE'),
+  ('_pyrepl.main',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\main.py',
+   'PYMODULE'),
+  ('_pyrepl.pager',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\pager.py',
+   'PYMODULE'),
+  ('_pyrepl.reader',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\reader.py',
+   'PYMODULE'),
+  ('_pyrepl.readline',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\readline.py',
+   'PYMODULE'),
+  ('_pyrepl.simple_interact',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\simple_interact.py',
+   'PYMODULE'),
+  ('_pyrepl.terminfo',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\terminfo.py',
+   'PYMODULE'),
+  ('_pyrepl.trace',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\trace.py',
+   'PYMODULE'),
+  ('_pyrepl.types',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\types.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_console',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\unix_console.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_eventqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\unix_eventqueue.py',
+   'PYMODULE'),
+  ('_pyrepl.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\utils.py',
+   'PYMODULE'),
+  ('_pyrepl.windows_console',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\windows_console.py',
+   'PYMODULE'),
+  ('_pyrepl.windows_eventqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_pyrepl\\windows_eventqueue.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('aiofiles',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\__init__.py',
+   'PYMODULE'),
+  ('aiofiles.base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\base.py',
+   'PYMODULE'),
+  ('aiofiles.tempfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\tempfile\\__init__.py',
+   'PYMODULE'),
+  ('aiofiles.tempfile.temptypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\tempfile\\temptypes.py',
+   'PYMODULE'),
+  ('aiofiles.threadpool',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\threadpool\\__init__.py',
+   'PYMODULE'),
+  ('aiofiles.threadpool.binary',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\threadpool\\binary.py',
+   'PYMODULE'),
+  ('aiofiles.threadpool.text',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\threadpool\\text.py',
+   'PYMODULE'),
+  ('aiofiles.threadpool.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\aiofiles\\threadpool\\utils.py',
+   'PYMODULE'),
+  ('annotationlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\annotationlib.py',
+   'PYMODULE'),
+  ('anticaptchaofficial',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\__init__.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.altchaproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\altchaproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.altchaproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\altchaproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.amazonproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\amazonproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.amazonproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\amazonproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.antibotcookietask',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\antibotcookietask.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.antigatetask',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\antigatetask.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.antinetworking',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\antinetworking.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.friendlycaptchaproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\friendlycaptchaproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.friendlycaptchaproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\friendlycaptchaproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.funcaptchaproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\funcaptchaproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.funcaptchaproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\funcaptchaproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.geetestproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\geetestproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.geetestproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\geetestproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.hcaptchaproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\hcaptchaproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.hcaptchaproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\hcaptchaproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.imagecaptcha',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\imagecaptcha.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.imagecoordinates',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\imagecoordinates.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.imagetocoordinates',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\imagetocoordinates.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.prosopoproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\prosopoproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.prosopoproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\prosopoproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav2enterpriseproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav2enterpriseproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav2enterpriseproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav2enterpriseproxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav2proxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav2proxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav2proxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav2proxyon.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav3enterpriseproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav3enterpriseproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.recaptchav3proxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\recaptchav3proxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.turnstileproxyless',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\turnstileproxyless.py',
+   'PYMODULE'),
+  ('anticaptchaofficial.turnstileproxyon',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anticaptchaofficial\\turnstileproxyon.py',
+   'PYMODULE'),
+  ('anyio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._asyncio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py',
+   'PYMODULE'),
+  ('anyio._backends._trio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_backends\\_trio.py',
+   'PYMODULE'),
+  ('anyio._core',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._asyncio_selector_thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_asyncio_selector_thread.py',
+   'PYMODULE'),
+  ('anyio._core._concurrency_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_concurrency_utils.py',
+   'PYMODULE'),
+  ('anyio._core._contextmanagers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_contextmanagers.py',
+   'PYMODULE'),
+  ('anyio._core._eventloop',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio._core._exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('anyio._core._fileio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_fileio.py',
+   'PYMODULE'),
+  ('anyio._core._futures',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_futures.py',
+   'PYMODULE'),
+  ('anyio._core._resources',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_resources.py',
+   'PYMODULE'),
+  ('anyio._core._signals',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_signals.py',
+   'PYMODULE'),
+  ('anyio._core._sockets',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_sockets.py',
+   'PYMODULE'),
+  ('anyio._core._streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_streams.py',
+   'PYMODULE'),
+  ('anyio._core._subprocesses',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio._core._synchronization',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_synchronization.py',
+   'PYMODULE'),
+  ('anyio._core._tasks',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_tasks.py',
+   'PYMODULE'),
+  ('anyio._core._tempfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_tempfile.py',
+   'PYMODULE'),
+  ('anyio._core._testing',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_testing.py',
+   'PYMODULE'),
+  ('anyio._core._typedattr',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_typedattr.py',
+   'PYMODULE'),
+  ('anyio._lazyimport',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_lazyimport.py',
+   'PYMODULE'),
+  ('anyio.abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\__init__.py',
+   'PYMODULE'),
+  ('anyio.abc._eventloop',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio.abc._resources',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_resources.py',
+   'PYMODULE'),
+  ('anyio.abc._sockets',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_sockets.py',
+   'PYMODULE'),
+  ('anyio.abc._streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_streams.py',
+   'PYMODULE'),
+  ('anyio.abc._subprocesses',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio.abc._tasks',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_tasks.py',
+   'PYMODULE'),
+  ('anyio.abc._testing',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\abc\\_testing.py',
+   'PYMODULE'),
+  ('anyio.from_thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\from_thread.py',
+   'PYMODULE'),
+  ('anyio.functools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\functools.py',
+   'PYMODULE'),
+  ('anyio.itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\itertools.py',
+   'PYMODULE'),
+  ('anyio.lowlevel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\lowlevel.py',
+   'PYMODULE'),
+  ('anyio.streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\streams\\__init__.py',
+   'PYMODULE'),
+  ('anyio.streams.buffered',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\streams\\buffered.py',
+   'PYMODULE'),
+  ('anyio.streams.memory',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py',
+   'PYMODULE'),
+  ('anyio.streams.stapled',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\streams\\stapled.py',
+   'PYMODULE'),
+  ('anyio.streams.tls',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\streams\\tls.py',
+   'PYMODULE'),
+  ('anyio.to_interpreter',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\to_interpreter.py',
+   'PYMODULE'),
+  ('anyio.to_process',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\to_process.py',
+   'PYMODULE'),
+  ('anyio.to_thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\to_thread.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.graph',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\graph.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('attr',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\__init__.py',
+   'PYMODULE'),
+  ('attr._cmp',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_cmp.py',
+   'PYMODULE'),
+  ('attr._compat',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_compat.py',
+   'PYMODULE'),
+  ('attr._config',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_config.py',
+   'PYMODULE'),
+  ('attr._funcs',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_funcs.py',
+   'PYMODULE'),
+  ('attr._make',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_make.py',
+   'PYMODULE'),
+  ('attr._next_gen',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_next_gen.py',
+   'PYMODULE'),
+  ('attr._version_info',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\_version_info.py',
+   'PYMODULE'),
+  ('attr.converters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\converters.py',
+   'PYMODULE'),
+  ('attr.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\exceptions.py',
+   'PYMODULE'),
+  ('attr.filters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\filters.py',
+   'PYMODULE'),
+  ('attr.setters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\setters.py',
+   'PYMODULE'),
+  ('attr.validators',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attr\\validators.py',
+   'PYMODULE'),
+  ('attrs',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\__init__.py',
+   'PYMODULE'),
+  ('attrs.converters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\converters.py',
+   'PYMODULE'),
+  ('attrs.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\exceptions.py',
+   'PYMODULE'),
+  ('attrs.filters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\filters.py',
+   'PYMODULE'),
+  ('attrs.setters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\setters.py',
+   'PYMODULE'),
+  ('attrs.validators',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs\\validators.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('cffi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi._imp_emulation',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\_imp_emulation.py',
+   'PYMODULE'),
+  ('cffi._shimmed_dist_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\_shimmed_dist_utils.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('compression',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\compression\\__init__.py',
+   'PYMODULE'),
+  ('compression._common',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\compression\\_common\\__init__.py',
+   'PYMODULE'),
+  ('compression._common._streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\compression\\_common\\_streams.py',
+   'PYMODULE'),
+  ('compression.zstd',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\compression\\zstd\\__init__.py',
+   'PYMODULE'),
+  ('compression.zstd._zstdfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\compression\\zstd\\_zstdfile.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.interpreter',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\futures\\interpreter.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.interpreters',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\interpreters\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.interpreters._crossinterp',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\interpreters\\_crossinterp.py',
+   'PYMODULE'),
+  ('concurrent.interpreters._queues',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\concurrent\\interpreters\\_queues.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes._layout',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\_layout.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\dis.py',
+   'PYMODULE'),
+  ('dotenv',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\glob.py',
+   'PYMODULE'),
+  ('greenlet',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\greenlet\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('h11',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\__init__.py',
+   'PYMODULE'),
+  ('h11._abnf',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_abnf.py',
+   'PYMODULE'),
+  ('h11._connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_connection.py',
+   'PYMODULE'),
+  ('h11._events',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_events.py',
+   'PYMODULE'),
+  ('h11._headers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_headers.py',
+   'PYMODULE'),
+  ('h11._readers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_readers.py',
+   'PYMODULE'),
+  ('h11._receivebuffer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_receivebuffer.py',
+   'PYMODULE'),
+  ('h11._state',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_state.py',
+   'PYMODULE'),
+  ('h11._util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_util.py',
+   'PYMODULE'),
+  ('h11._version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_version.py',
+   'PYMODULE'),
+  ('h11._writers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\h11\\_writers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('httpcore',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_api.py',
+   'PYMODULE'),
+  ('httpcore._async',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._async.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\connection.py',
+   'PYMODULE'),
+  ('httpcore._async.connection_pool',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._async.http11',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\http11.py',
+   'PYMODULE'),
+  ('httpcore._async.http2',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\http2.py',
+   'PYMODULE'),
+  ('httpcore._async.http_proxy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._async.interfaces',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\interfaces.py',
+   'PYMODULE'),
+  ('httpcore._async.socks_proxy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_async\\socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._backends',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._backends.anyio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py',
+   'PYMODULE'),
+  ('httpcore._backends.auto',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\auto.py',
+   'PYMODULE'),
+  ('httpcore._backends.base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\base.py',
+   'PYMODULE'),
+  ('httpcore._backends.mock',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\mock.py',
+   'PYMODULE'),
+  ('httpcore._backends.sync',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\sync.py',
+   'PYMODULE'),
+  ('httpcore._backends.trio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_backends\\trio.py',
+   'PYMODULE'),
+  ('httpcore._exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_exceptions.py',
+   'PYMODULE'),
+  ('httpcore._models',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_models.py',
+   'PYMODULE'),
+  ('httpcore._ssl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_ssl.py',
+   'PYMODULE'),
+  ('httpcore._sync',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\connection.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection_pool',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._sync.http11',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http11.py',
+   'PYMODULE'),
+  ('httpcore._sync.http2',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http2.py',
+   'PYMODULE'),
+  ('httpcore._sync.http_proxy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._sync.interfaces',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\interfaces.py',
+   'PYMODULE'),
+  ('httpcore._sync.socks_proxy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_sync\\socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._synchronization',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_synchronization.py',
+   'PYMODULE'),
+  ('httpcore._trace',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_trace.py',
+   'PYMODULE'),
+  ('httpcore._utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpcore\\_utils.py',
+   'PYMODULE'),
+  ('httpx',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\__init__.py',
+   'PYMODULE'),
+  ('httpx.__version__',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\__version__.py',
+   'PYMODULE'),
+  ('httpx._api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_api.py',
+   'PYMODULE'),
+  ('httpx._auth',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_auth.py',
+   'PYMODULE'),
+  ('httpx._client',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_client.py',
+   'PYMODULE'),
+  ('httpx._config',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_config.py',
+   'PYMODULE'),
+  ('httpx._content',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_content.py',
+   'PYMODULE'),
+  ('httpx._decoders',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_decoders.py',
+   'PYMODULE'),
+  ('httpx._exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_exceptions.py',
+   'PYMODULE'),
+  ('httpx._main',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_main.py',
+   'PYMODULE'),
+  ('httpx._models',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_models.py',
+   'PYMODULE'),
+  ('httpx._multipart',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_multipart.py',
+   'PYMODULE'),
+  ('httpx._status_codes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_status_codes.py',
+   'PYMODULE'),
+  ('httpx._transports',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\__init__.py',
+   'PYMODULE'),
+  ('httpx._transports.asgi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\asgi.py',
+   'PYMODULE'),
+  ('httpx._transports.base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\base.py',
+   'PYMODULE'),
+  ('httpx._transports.default',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\default.py',
+   'PYMODULE'),
+  ('httpx._transports.mock',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\mock.py',
+   'PYMODULE'),
+  ('httpx._transports.wsgi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_transports\\wsgi.py',
+   'PYMODULE'),
+  ('httpx._types',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_types.py',
+   'PYMODULE'),
+  ('httpx._urlparse',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_urlparse.py',
+   'PYMODULE'),
+  ('httpx._urls',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_urls.py',
+   'PYMODULE'),
+  ('httpx._utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\httpx\\_utils.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('outcome',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\outcome\\__init__.py',
+   'PYMODULE'),
+  ('outcome._impl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\outcome\\_impl.py',
+   'PYMODULE'),
+  ('outcome._util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\outcome\\_util.py',
+   'PYMODULE'),
+  ('outcome._version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\outcome\\_version.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._ranges',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_ranges.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.ranges',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\ranges.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._os',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\_os.py',
+   'PYMODULE'),
+  ('pathlib.types',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\types.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\platform.py',
+   'PYMODULE'),
+  ('playwright',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\__init__.py',
+   'PYMODULE'),
+  ('playwright.__main__',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\__main__.py',
+   'PYMODULE'),
+  ('playwright._impl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\__init__.py',
+   'PYMODULE'),
+  ('playwright._impl.__pyinstaller',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\__pyinstaller\\__init__.py',
+   'PYMODULE'),
+  ('playwright._impl._api_structures',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_api_structures.py',
+   'PYMODULE'),
+  ('playwright._impl._artifact',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_artifact.py',
+   'PYMODULE'),
+  ('playwright._impl._assertions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py',
+   'PYMODULE'),
+  ('playwright._impl._async_base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_async_base.py',
+   'PYMODULE'),
+  ('playwright._impl._browser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_browser.py',
+   'PYMODULE'),
+  ('playwright._impl._browser_context',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_browser_context.py',
+   'PYMODULE'),
+  ('playwright._impl._browser_type',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_browser_type.py',
+   'PYMODULE'),
+  ('playwright._impl._cdp_session',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_cdp_session.py',
+   'PYMODULE'),
+  ('playwright._impl._clock',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_clock.py',
+   'PYMODULE'),
+  ('playwright._impl._connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_connection.py',
+   'PYMODULE'),
+  ('playwright._impl._console_message',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_console_message.py',
+   'PYMODULE'),
+  ('playwright._impl._credentials',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_credentials.py',
+   'PYMODULE'),
+  ('playwright._impl._debugger',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_debugger.py',
+   'PYMODULE'),
+  ('playwright._impl._dialog',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_dialog.py',
+   'PYMODULE'),
+  ('playwright._impl._disposable',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_disposable.py',
+   'PYMODULE'),
+  ('playwright._impl._download',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_download.py',
+   'PYMODULE'),
+  ('playwright._impl._driver',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_driver.py',
+   'PYMODULE'),
+  ('playwright._impl._element_handle',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_element_handle.py',
+   'PYMODULE'),
+  ('playwright._impl._errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_errors.py',
+   'PYMODULE'),
+  ('playwright._impl._event_context_manager',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_event_context_manager.py',
+   'PYMODULE'),
+  ('playwright._impl._fetch',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_fetch.py',
+   'PYMODULE'),
+  ('playwright._impl._file_chooser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_file_chooser.py',
+   'PYMODULE'),
+  ('playwright._impl._form_data',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_form_data.py',
+   'PYMODULE'),
+  ('playwright._impl._frame',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_frame.py',
+   'PYMODULE'),
+  ('playwright._impl._glob',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_glob.py',
+   'PYMODULE'),
+  ('playwright._impl._greenlets',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_greenlets.py',
+   'PYMODULE'),
+  ('playwright._impl._har_router',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_har_router.py',
+   'PYMODULE'),
+  ('playwright._impl._helper',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_helper.py',
+   'PYMODULE'),
+  ('playwright._impl._impl_to_api_mapping',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_impl_to_api_mapping.py',
+   'PYMODULE'),
+  ('playwright._impl._input',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_input.py',
+   'PYMODULE'),
+  ('playwright._impl._js_handle',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_js_handle.py',
+   'PYMODULE'),
+  ('playwright._impl._json_pipe',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_json_pipe.py',
+   'PYMODULE'),
+  ('playwright._impl._local_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_local_utils.py',
+   'PYMODULE'),
+  ('playwright._impl._locator',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_locator.py',
+   'PYMODULE'),
+  ('playwright._impl._map',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_map.py',
+   'PYMODULE'),
+  ('playwright._impl._network',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_network.py',
+   'PYMODULE'),
+  ('playwright._impl._object_factory',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_object_factory.py',
+   'PYMODULE'),
+  ('playwright._impl._page',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_page.py',
+   'PYMODULE'),
+  ('playwright._impl._path_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_path_utils.py',
+   'PYMODULE'),
+  ('playwright._impl._playwright',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_playwright.py',
+   'PYMODULE'),
+  ('playwright._impl._screencast',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_screencast.py',
+   'PYMODULE'),
+  ('playwright._impl._selectors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_selectors.py',
+   'PYMODULE'),
+  ('playwright._impl._set_input_files_helpers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_set_input_files_helpers.py',
+   'PYMODULE'),
+  ('playwright._impl._str_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_str_utils.py',
+   'PYMODULE'),
+  ('playwright._impl._stream',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_stream.py',
+   'PYMODULE'),
+  ('playwright._impl._sync_base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py',
+   'PYMODULE'),
+  ('playwright._impl._tracing',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_tracing.py',
+   'PYMODULE'),
+  ('playwright._impl._transport',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_transport.py',
+   'PYMODULE'),
+  ('playwright._impl._video',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_video.py',
+   'PYMODULE'),
+  ('playwright._impl._waiter',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_waiter.py',
+   'PYMODULE'),
+  ('playwright._impl._web_error',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_web_error.py',
+   'PYMODULE'),
+  ('playwright._impl._web_storage',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_web_storage.py',
+   'PYMODULE'),
+  ('playwright._impl._writable_stream',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_impl\\_writable_stream.py',
+   'PYMODULE'),
+  ('playwright._repo_version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\_repo_version.py',
+   'PYMODULE'),
+  ('playwright.async_api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\async_api\\__init__.py',
+   'PYMODULE'),
+  ('playwright.async_api._context_manager',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\async_api\\_context_manager.py',
+   'PYMODULE'),
+  ('playwright.async_api._generated',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\async_api\\_generated.py',
+   'PYMODULE'),
+  ('playwright.sync_api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\sync_api\\__init__.py',
+   'PYMODULE'),
+  ('playwright.sync_api._context_manager',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py',
+   'PYMODULE'),
+  ('playwright.sync_api._generated',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pycparser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pyee',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pyee\\__init__.py',
+   'PYMODULE'),
+  ('pyee.asyncio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pyee\\asyncio.py',
+   'PYMODULE'),
+  ('pyee.base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\pyee\\base.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\random.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests._types',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\_types.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('setuptools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._discovery',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_discovery.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._dataclass',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_dataclass.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\numpy.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py310',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.cygwin',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\cygwin.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.unix',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\unix.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.zos',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\zos.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers._modified',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers._util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.logging',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\logging.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.platform', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.platform.detect',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\platform\\detect.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.platform.macos',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\platform\\macos.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\signal.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\site.py',
+   'PYMODULE'),
+  ('sniffio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sniffio\\__init__.py',
+   'PYMODULE'),
+  ('sniffio._impl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sniffio\\_impl.py',
+   'PYMODULE'),
+  ('sniffio._version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sniffio\\_version.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('socks',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\socks.py',
+   'PYMODULE'),
+  ('sortedcontainers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sortedcontainers\\__init__.py',
+   'PYMODULE'),
+  ('sortedcontainers.sorteddict',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sortedcontainers\\sorteddict.py',
+   'PYMODULE'),
+  ('sortedcontainers.sortedlist',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sortedcontainers\\sortedlist.py',
+   'PYMODULE'),
+  ('sortedcontainers.sortedset',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\sortedcontainers\\sortedset.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\string\\__init__.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sysconfig\\__init__.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\threading.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tomllib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('trio',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\__init__.py',
+   'PYMODULE'),
+  ('trio._abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_abc.py',
+   'PYMODULE'),
+  ('trio._channel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_channel.py',
+   'PYMODULE'),
+  ('trio._core',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('trio._core._asyncgens',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_asyncgens.py',
+   'PYMODULE'),
+  ('trio._core._concat_tb',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_concat_tb.py',
+   'PYMODULE'),
+  ('trio._core._entry_queue',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_entry_queue.py',
+   'PYMODULE'),
+  ('trio._core._exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('trio._core._generated_instrumentation',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_instrumentation.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_epoll',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_io_epoll.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_kqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_io_kqueue.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_windows',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_io_windows.py',
+   'PYMODULE'),
+  ('trio._core._generated_run',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_run.py',
+   'PYMODULE'),
+  ('trio._core._generated_windows_ffi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_generated_windows_ffi.py',
+   'PYMODULE'),
+  ('trio._core._instrumentation',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_instrumentation.py',
+   'PYMODULE'),
+  ('trio._core._io_common',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_io_common.py',
+   'PYMODULE'),
+  ('trio._core._io_epoll',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_io_epoll.py',
+   'PYMODULE'),
+  ('trio._core._io_kqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_io_kqueue.py',
+   'PYMODULE'),
+  ('trio._core._io_windows',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_io_windows.py',
+   'PYMODULE'),
+  ('trio._core._ki',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_ki.py',
+   'PYMODULE'),
+  ('trio._core._local',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_local.py',
+   'PYMODULE'),
+  ('trio._core._mock_clock',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_mock_clock.py',
+   'PYMODULE'),
+  ('trio._core._parking_lot',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_parking_lot.py',
+   'PYMODULE'),
+  ('trio._core._run',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_run.py',
+   'PYMODULE'),
+  ('trio._core._run_context',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_run_context.py',
+   'PYMODULE'),
+  ('trio._core._thread_cache',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_thread_cache.py',
+   'PYMODULE'),
+  ('trio._core._traps',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_traps.py',
+   'PYMODULE'),
+  ('trio._core._unbounded_queue',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_unbounded_queue.py',
+   'PYMODULE'),
+  ('trio._core._wakeup_socketpair',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_wakeup_socketpair.py',
+   'PYMODULE'),
+  ('trio._core._windows_cffi',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_core\\_windows_cffi.py',
+   'PYMODULE'),
+  ('trio._deprecate',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_deprecate.py',
+   'PYMODULE'),
+  ('trio._dtls',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_dtls.py',
+   'PYMODULE'),
+  ('trio._file_io',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_file_io.py',
+   'PYMODULE'),
+  ('trio._highlevel_generic',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_generic.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_tcp_listeners',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_open_tcp_listeners.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_tcp_stream',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_open_tcp_stream.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_unix_stream',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_open_unix_stream.py',
+   'PYMODULE'),
+  ('trio._highlevel_serve_listeners',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_serve_listeners.py',
+   'PYMODULE'),
+  ('trio._highlevel_socket',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_socket.py',
+   'PYMODULE'),
+  ('trio._highlevel_ssl_helpers',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_highlevel_ssl_helpers.py',
+   'PYMODULE'),
+  ('trio._path',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_path.py',
+   'PYMODULE'),
+  ('trio._signals',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_signals.py',
+   'PYMODULE'),
+  ('trio._socket',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_socket.py',
+   'PYMODULE'),
+  ('trio._ssl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_ssl.py',
+   'PYMODULE'),
+  ('trio._subprocess',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_subprocess.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_subprocess_platform\\__init__.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.kqueue',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_subprocess_platform\\kqueue.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.waitid',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_subprocess_platform\\waitid.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.windows',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_subprocess_platform\\windows.py',
+   'PYMODULE'),
+  ('trio._sync',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_sync.py',
+   'PYMODULE'),
+  ('trio._threads',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_threads.py',
+   'PYMODULE'),
+  ('trio._timeouts',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_timeouts.py',
+   'PYMODULE'),
+  ('trio._unix_pipes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_unix_pipes.py',
+   'PYMODULE'),
+  ('trio._util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_util.py',
+   'PYMODULE'),
+  ('trio._version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_version.py',
+   'PYMODULE'),
+  ('trio._wait_for_object',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_wait_for_object.py',
+   'PYMODULE'),
+  ('trio._windows_pipes',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\_windows_pipes.py',
+   'PYMODULE'),
+  ('trio.abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\abc.py',
+   'PYMODULE'),
+  ('trio.from_thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\from_thread.py',
+   'PYMODULE'),
+  ('trio.lowlevel',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\lowlevel.py',
+   'PYMODULE'),
+  ('trio.socket',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\socket.py',
+   'PYMODULE'),
+  ('trio.testing',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\__init__.py',
+   'PYMODULE'),
+  ('trio.testing._check_streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_check_streams.py',
+   'PYMODULE'),
+  ('trio.testing._checkpoints',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_checkpoints.py',
+   'PYMODULE'),
+  ('trio.testing._memory_streams',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_memory_streams.py',
+   'PYMODULE'),
+  ('trio.testing._network',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_network.py',
+   'PYMODULE'),
+  ('trio.testing._raises_group',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_raises_group.py',
+   'PYMODULE'),
+  ('trio.testing._sequencer',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_sequencer.py',
+   'PYMODULE'),
+  ('trio.testing._trio_test',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\testing\\_trio_test.py',
+   'PYMODULE'),
+  ('trio.to_thread',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\trio\\to_thread.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tty.py',
+   'PYMODULE'),
+  ('twocaptcha',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\__init__.py',
+   'PYMODULE'),
+  ('twocaptcha.api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\api.py',
+   'PYMODULE'),
+  ('twocaptcha.async_api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\async_api.py',
+   'PYMODULE'),
+  ('twocaptcha.async_solver',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\async_solver.py',
+   'PYMODULE'),
+  ('twocaptcha.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\exceptions\\__init__.py',
+   'PYMODULE'),
+  ('twocaptcha.exceptions.api',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\exceptions\\api.py',
+   'PYMODULE'),
+  ('twocaptcha.exceptions.solver',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\exceptions\\solver.py',
+   'PYMODULE'),
+  ('twocaptcha.solver',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\twocaptcha\\solver.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\zipimport.py',
+   'PYMODULE')])
