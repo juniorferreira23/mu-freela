@@ -31,6 +31,8 @@ CDP_URL = "http://localhost:9222"
 CAPTCHA_DOMAIN = "captcha.muaway.net"
 
 INTERVALO_SEGUNDOS = 3          # intervalo entre verificacoes
+INTERVALO_RETRY_INICIAL_SEGUNDOS = 15
+INTERVALO_RETRY_MAX_SEGUNDOS = 120
 
 JS_INJETAR_TOKEN = """
 (token) => {
@@ -61,39 +63,52 @@ def buscar_pagina_captcha(playwright):
 
 def resolver_via_anticaptcha(url, sitekey, api_key):
     """Tenta resolver via anti-captcha. Retorna (token, sem_saldo) ou (None, sem_saldo)."""
-    solver = hCaptchaProxyless()
-    solver.set_verbose(1)
-    solver.set_key(api_key)
-    solver.set_website_url(url)
-    solver.set_website_key(sitekey)
+    try:
+        solver = hCaptchaProxyless()
+        solver.set_verbose(1)
+        solver.set_key(api_key)
+        solver.set_website_url(url)
+        solver.set_website_key(sitekey)
 
-    print("[*] Resolvendo captcha via anti-captcha (pode levar ~1 min)...")
-    resposta = solver.solve_and_return_solution()
+        print("[*] Resolvendo captcha via anti-captcha (pode levar ~1 min)...")
+        resposta = solver.solve_and_return_solution()
 
-    if resposta == 0:
-        sem_saldo = solver.error_id == 1  # ERROR_ZERO_BALANCE
-        if not sem_saldo:
-            print(f"[-] Falha no anti-captcha: {solver.err_string}")
-        return None, sem_saldo
-    return resposta, False
+        if resposta == 0:
+            error_code = str(getattr(solver, "error_code", "") or "").upper()
+            error_message = getattr(solver, "err_string", "sem detalhes")
+            sem_saldo = error_code == "ERROR_ZERO_BALANCE"
+            print(f"[-] Falha no anti-captcha ({error_code or 'codigo desconhecido'}): "
+                  f"{error_message}")
+            return None, sem_saldo
+        return resposta, False
+    except Exception as e:
+        print(f"[-] Excecao no anti-captcha ({type(e).__name__}): {e}")
+        return None, False
 
 
 def resolver_via_2captcha(url, sitekey, api_key):
     """Tenta resolver via 2captcha (fallback). Retorna o token ou None."""
-    solver = TwoCaptcha(api_key)
-    print("[*] Resolvendo captcha via 2captcha (pode levar ~1 min)...")
     try:
+        solver = TwoCaptcha(api_key)
+        print("[*] Resolvendo captcha via 2captcha (pode levar ~1 min)...")
         resultado = solver.hcaptcha(sitekey=sitekey, url=url)
     except TwoCaptchaException as e:
         print(f"[-] Falha no 2captcha: {e}")
         if "ERROR_ZERO_BALANCE" in str(e):
             print("\n" + "=" * 70)
             print("[!!!] SALDO DAS DUAS APIS ESGOTADO (anti-captcha e 2captcha)")
-            print("[!!!] Recarregue creditos e rode o script novamente.")
+            print("[!!!] Recarregue os creditos. O script continuara tentando mais tarde.")
             print("=" * 70)
-            sys.exit(2)
         return None
-    return resultado["code"]
+    except Exception as e:
+        print(f"[-] Excecao no 2captcha ({type(e).__name__}): {e}")
+        return None
+
+    try:
+        return resultado["code"]
+    except (KeyError, TypeError):
+        print("[-] Resposta inesperada do 2captcha: token nao encontrado")
+        return None
 
 
 def resolver_captcha(pagina, api_key, api_key_2captcha):
@@ -115,8 +130,9 @@ def resolver_captcha(pagina, api_key, api_key_2captcha):
             print("[!!!] SALDO DA API ANTI-CAPTCHA ESGOTADO (ERROR_ZERO_BALANCE)")
             print("[!!!] Sem chave CAPTCHA_2CAPTCHA_API_KEY configurada para")
             print("[!!!] fallback. Recarregue creditos ou configure o 2captcha.")
+            print("[!!!] O script continuara monitorando e tentara novamente.")
             print("=" * 70)
-            sys.exit(2)
+            return False
         resposta = resolver_via_2captcha(url, sitekey, api_key_2captcha)
 
     if resposta is None:
@@ -131,6 +147,14 @@ def resolver_captcha(pagina, api_key, api_key_2captcha):
     return True
 
 
+def proximo_intervalo_retry(intervalo_atual):
+    """Aumenta o intervalo entre falhas sem deixar o monitor parar."""
+    return min(
+        max(INTERVALO_RETRY_INICIAL_SEGUNDOS, intervalo_atual * 2),
+        INTERVALO_RETRY_MAX_SEGUNDOS,
+    )
+
+
 def main():
     api_key = os.getenv("CAPTCHA_API_KEY")
     if not api_key:
@@ -141,19 +165,30 @@ def main():
     print("[*] Deixe este script rodando enquanto joga. Ctrl+C para sair.\n")
 
     resolucoes = 0
+    intervalo_atual = INTERVALO_SEGUNDOS
 
     try:
         with sync_playwright() as p:
             while True:
-                navegador, pagina = buscar_pagina_captcha(p)
+                try:
+                    navegador, pagina = buscar_pagina_captcha(p)
 
-                if pagina is not None:
-                    if resolver_captcha(pagina, api_key, api_key_2captcha):
+                    if pagina is None:
+                        intervalo_atual = INTERVALO_SEGUNDOS
+                    elif resolver_captcha(pagina, api_key, api_key_2captcha):
                         resolucoes += 1
+                        intervalo_atual = INTERVALO_SEGUNDOS
                         print(f"[*] Total resolvido nesta sessao: {resolucoes}. "
                               f"Aguardando proximo captcha...\n")
+                    else:
+                        intervalo_atual = proximo_intervalo_retry(intervalo_atual)
+                        print(f"[*] Nova tentativa em {intervalo_atual}s.")
+                except Exception as e:
+                    intervalo_atual = proximo_intervalo_retry(intervalo_atual)
+                    print(f"[-] Erro no ciclo de monitoramento ({type(e).__name__}): {e}")
+                    print(f"[*] Nova tentativa em {intervalo_atual}s.")
 
-                time.sleep(INTERVALO_SEGUNDOS)
+                time.sleep(intervalo_atual)
     except KeyboardInterrupt:
         print(f"\n[*] Encerrado pelo usuario. "
               f"Total resolvido nesta sessao: {resolucoes}.")
