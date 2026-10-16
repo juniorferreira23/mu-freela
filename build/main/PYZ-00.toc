@@ -1527,6 +1527,10 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\__init__.py',
    'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\handlers.py',
+   'PYMODULE'),
   ('lzma',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\lzma.py',
@@ -2671,6 +2675,10 @@
   ('site',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\site.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\smtplib.py',
    'PYMODULE'),
   ('sniffio',
    'C:\\Users\\Junior '

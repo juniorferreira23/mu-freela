@@ -96,10 +96,6 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_multiprocessing.pyd',
    'EXTENSION'),
-  ('_hashlib.pyd',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
   ('_zstd.pyd',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_zstd.pyd',
@@ -112,13 +108,17 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_bz2.pyd',
    'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
   ('_ssl.pyd',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_ssl.pyd',
    'EXTENSION'),
-  ('pyexpat.pyd',
+  ('_hashlib.pyd',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\pyexpat.pyd',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
   ('_decimal.pyd',
    'C:\\Users\\Junior '
@@ -176,13 +176,13 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\VCRUNTIME140.dll',
    'BINARY'),
-  ('libcrypto-3-x64.dll',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libcrypto-3-x64.dll',
-   'BINARY'),
   ('libssl-3-x64.dll',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libssl-3-x64.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libcrypto-3-x64.dll',
    'BINARY'),
   ('libffi-8.dll',
    'C:\\Users\\Junior '
@@ -1169,10 +1169,6 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
-  ('attrs-26.1.0.dist-info\\INSTALLER',
-   'C:\\Users\\Junior '
-   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
-   'DATA'),
   ('attrs-26.1.0.dist-info\\licenses\\LICENSE',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\licenses\\LICENSE',
@@ -1181,17 +1177,21 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\REQUESTED',
    'DATA'),
-  ('attrs-26.1.0.dist-info\\METADATA',
-   'C:\\Users\\Junior '
-   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
-   'DATA'),
   ('attrs-26.1.0.dist-info\\WHEEL',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\WHEEL',
    'DATA'),
+  ('attrs-26.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
+   'DATA'),
   ('attrs-26.1.0.dist-info\\RECORD',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\METADATA',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\Junior '
@@ -1200,7 +1200,7 @@
  [],
  False,
  False,
- 1790555869,
+ 1792108703,
  [('run.exe',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

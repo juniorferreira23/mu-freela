@@ -1197,157 +1197,37 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_bootstrap_external.py',
    'PYMODULE'),
-  ('importlib.metadata',
+  ('importlib.readers',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\__init__.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\readers.py',
    'PYMODULE'),
-  ('csv',
+  ('importlib.resources.readers',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\csv.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\readers.py',
    'PYMODULE'),
-  ('importlib.metadata._adapters',
+  ('importlib.resources._itertools',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_adapters.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_itertools.py',
    'PYMODULE'),
-  ('importlib.metadata._text',
+  ('importlib.resources.abc',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_text.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\abc.py',
    'PYMODULE'),
-  ('email.message',
+  ('importlib.resources',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\message.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\__init__.py',
    'PYMODULE'),
-  ('email.policy',
+  ('importlib.resources._functional',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\policy.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_functional.py',
    'PYMODULE'),
-  ('email.contentmanager',
+  ('importlib.resources._common',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\contentmanager.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_common.py',
    'PYMODULE'),
-  ('email.quoprimime',
+  ('importlib.resources._adapters',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\quoprimime.py',
-   'PYMODULE'),
-  ('string',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\string\\__init__.py',
-   'PYMODULE'),
-  ('email.headerregistry',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\headerregistry.py',
-   'PYMODULE'),
-  ('email._header_value_parser',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_header_value_parser.py',
-   'PYMODULE'),
-  ('urllib',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\__init__.py',
-   'PYMODULE'),
-  ('email.iterators',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\iterators.py',
-   'PYMODULE'),
-  ('email.generator',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\generator.py',
-   'PYMODULE'),
-  ('random',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\random.py',
-   'PYMODULE'),
-  ('statistics',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\statistics.py',
-   'PYMODULE'),
-  ('fractions',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fractions.py',
-   'PYMODULE'),
-  ('numbers',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\numbers.py',
-   'PYMODULE'),
-  ('hashlib',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\hashlib.py',
-   'PYMODULE'),
-  ('bisect',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\bisect.py',
-   'PYMODULE'),
-  ('email._encoded_words',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_encoded_words.py',
-   'PYMODULE'),
-  ('email.charset',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\charset.py',
-   'PYMODULE'),
-  ('email.encoders',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\encoders.py',
-   'PYMODULE'),
-  ('email.base64mime',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\base64mime.py',
-   'PYMODULE'),
-  ('email._policybase',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_policybase.py',
-   'PYMODULE'),
-  ('email.header',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\header.py',
-   'PYMODULE'),
-  ('email.errors',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\errors.py',
-   'PYMODULE'),
-  ('email.utils',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\utils.py',
-   'PYMODULE'),
-  ('email._parseaddr',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_parseaddr.py',
-   'PYMODULE'),
-  ('calendar',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\calendar.py',
-   'PYMODULE'),
-  ('quopri',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\quopri.py',
-   'PYMODULE'),
-  ('getopt',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\getopt.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('importlib._abc',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_abc.py',
-   'PYMODULE'),
-  ('importlib.metadata._itertools',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.metadata._functools',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_functools.py',
-   'PYMODULE'),
-  ('importlib.metadata._collections',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_collections.py',
-   'PYMODULE'),
-  ('importlib.metadata._meta',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_meta.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_adapters.py',
    'PYMODULE'),
   ('zipfile',
    'C:\\Users\\Junior '
@@ -1389,125 +1269,13 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\util.py',
    'PYMODULE'),
-  ('pathlib',
+  ('importlib._abc',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\__init__.py',
-   'PYMODULE'),
-  ('urllib.error',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\error.py',
-   'PYMODULE'),
-  ('urllib.response',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\response.py',
-   'PYMODULE'),
-  ('urllib.request',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\request.py',
-   'PYMODULE'),
-  ('ipaddress',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ipaddress.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fnmatch.py',
-   'PYMODULE'),
-  ('ftplib',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ftplib.py',
-   'PYMODULE'),
-  ('netrc',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\netrc.py',
-   'PYMODULE'),
-  ('mimetypes',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\mimetypes.py',
-   'PYMODULE'),
-  ('http.cookiejar',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\cookiejar.py',
-   'PYMODULE'),
-  ('http',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\__init__.py',
-   'PYMODULE'),
-  ('ssl',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ssl.py',
-   'PYMODULE'),
-  ('pathlib._os',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\_os.py',
-   'PYMODULE'),
-  ('glob',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\glob.py',
-   'PYMODULE'),
-  ('email',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\__init__.py',
-   'PYMODULE'),
-  ('email.parser',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\parser.py',
-   'PYMODULE'),
-  ('email.feedparser',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\feedparser.py',
-   'PYMODULE'),
-  ('json',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\__init__.py',
-   'PYMODULE'),
-  ('json.encoder',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\encoder.py',
-   'PYMODULE'),
-  ('json.decoder',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\decoder.py',
-   'PYMODULE'),
-  ('json.scanner',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\scanner.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\_abc.py',
    'PYMODULE'),
   ('__future__',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\__future__.py',
-   'PYMODULE'),
-  ('importlib.readers',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\readers.py',
-   'PYMODULE'),
-  ('importlib.resources.readers',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\readers.py',
-   'PYMODULE'),
-  ('importlib.resources._itertools',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.resources.abc',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\abc.py',
-   'PYMODULE'),
-  ('importlib.resources',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\__init__.py',
-   'PYMODULE'),
-  ('importlib.resources._functional',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_functional.py',
-   'PYMODULE'),
-  ('importlib.resources._common',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_common.py',
-   'PYMODULE'),
-  ('importlib.resources._adapters',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\resources\\_adapters.py',
    'PYMODULE'),
   ('importlib._bootstrap',
    'C:\\Users\\Junior '
@@ -1589,6 +1357,174 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\saxutils.py',
    'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\string\\__init__.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\bisect.py',
+   'PYMODULE'),
   ('xml.sax',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\xml\\sax\\__init__.py',
@@ -1660,22 +1596,6 @@
   ('tarfile',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\tarfile.py',
-   'PYMODULE'),
-  ('logging',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pickle',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pprint.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_compat_pickle.py',
    'PYMODULE'),
   ('multiprocessing.context',
    'C:\\Users\\Junior '
@@ -1757,6 +1677,18 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\reduction.py',
    'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
   ('multiprocessing.process',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\multiprocessing\\process.py',
@@ -1780,6 +1712,10 @@
   ('_distutils_hack',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\abc.py',
    'PYMODULE'),
   ('setuptools',
    'C:\\Users\\Junior '
@@ -2206,6 +2142,22 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\platform.py',
    'PYMODULE'),
+  ('json',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\json\\scanner.py',
+   'PYMODULE'),
   ('setuptools._distutils.command.build_ext',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
@@ -2522,6 +2474,10 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
    'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\csv.py',
+   'PYMODULE'),
   ('setuptools.installer',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
@@ -2657,6 +2613,10 @@
   ('packaging.markers',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\glob.py',
    'PYMODULE'),
   ('setuptools._shutil',
    'C:\\Users\\Junior '
@@ -3714,6 +3674,10 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\types.py',
    'PYMODULE'),
+  ('pathlib._os',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\_os.py',
+   'PYMODULE'),
   ('anyio._core._exceptions',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py',
@@ -4394,13 +4358,13 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\playwright\\__init__.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\stringprep.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\stringprep.py',
    'PYMODULE'),
   ('_py_warnings',
    'C:\\Users\\Junior '
@@ -4445,6 +4409,50 @@
   ('urllib.parse',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\smtplib.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\logging\\__init__.py',
    'PYMODULE')],
  [('playwright\\driver\\node.exe',
    'C:\\Users\\Junior '
@@ -4462,10 +4470,6 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_multiprocessing.pyd',
    'EXTENSION'),
-  ('_hashlib.pyd',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
   ('_zstd.pyd',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_zstd.pyd',
@@ -4478,13 +4482,17 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_bz2.pyd',
    'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
   ('_ssl.pyd',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_ssl.pyd',
    'EXTENSION'),
-  ('pyexpat.pyd',
+  ('_hashlib.pyd',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\pyexpat.pyd',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
   ('_decimal.pyd',
    'C:\\Users\\Junior '
@@ -4542,13 +4550,13 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\VCRUNTIME140.dll',
    'BINARY'),
-  ('libcrypto-3-x64.dll',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libcrypto-3-x64.dll',
-   'BINARY'),
   ('libssl-3-x64.dll',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libssl-3-x64.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\DLLs\\libcrypto-3-x64.dll',
    'BINARY'),
   ('libffi-8.dll',
    'C:\\Users\\Junior '
@@ -5537,10 +5545,6 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
-  ('attrs-26.1.0.dist-info\\INSTALLER',
-   'C:\\Users\\Junior '
-   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
-   'DATA'),
   ('attrs-26.1.0.dist-info\\licenses\\LICENSE',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\licenses\\LICENSE',
@@ -5549,45 +5553,85 @@
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\REQUESTED',
    'DATA'),
-  ('attrs-26.1.0.dist-info\\METADATA',
-   'C:\\Users\\Junior '
-   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
-   'DATA'),
   ('attrs-26.1.0.dist-info\\WHEEL',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
    'DATA'),
   ('attrs-26.1.0.dist-info\\RECORD',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\RECORD',
    'DATA'),
+  ('attrs-26.1.0.dist-info\\METADATA',
+   'C:\\Users\\Junior '
+   'Ferreira\\Desktop\\mu-freela\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
+   'DATA'),
   ('base_library.zip',
    'C:\\Users\\Junior '
    'Ferreira\\Desktop\\mu-freela\\build\\main\\base_library.zip',
    'DATA')],
- [('operator',
+ [('sre_compile',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\operator.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\io.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_compile.py',
    'PYMODULE'),
   ('_collections_abc',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_collections_abc.py',
    'PYMODULE'),
-  ('weakref',
+  ('operator',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\weakref.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\operator.py',
    'PYMODULE'),
   ('stat',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\stat.py',
    'PYMODULE'),
+  ('enum',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\enum.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\functools.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\abc.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_parse.py',
+   'PYMODULE'),
   ('collections',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('reprlib',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('re._parser',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\__init__.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Junior '
@@ -6081,77 +6125,17 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('abc',
+  ('codecs',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\abc.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\codecs.py',
    'PYMODULE'),
-  ('sre_parse',
+  ('weakref',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_parse.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\weakref.py',
    'PYMODULE'),
-  ('ntpath',
+  ('io',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\types.py',
-   'PYMODULE'),
-  ('re._parser',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_parser.py',
-   'PYMODULE'),
-  ('re._constants',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_constants.py',
-   'PYMODULE'),
-  ('re._compiler',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_compiler.py',
-   'PYMODULE'),
-  ('re._casefix',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\_casefix.py',
-   'PYMODULE'),
-  ('re',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\re\\__init__.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('functools',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\functools.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_weakrefset.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\linecache.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\io.py',
    'PYMODULE'),
   ('keyword',
    'C:\\Users\\Junior '
@@ -6161,25 +6145,49 @@
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\genericpath.py',
    'PYMODULE'),
-  ('enum',
+  ('warnings',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\enum.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\ntpath.py',
    'PYMODULE'),
   ('heapq',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\heapq.py',
    'PYMODULE'),
-  ('codecs',
+  ('_weakrefset',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\codecs.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\types.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Junior '
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\sre_constants.py',
    'PYMODULE'),
   ('locale',
    'C:\\Users\\Junior '
    'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\locale.py',
    'PYMODULE'),
-  ('warnings',
+  ('traceback',
    'C:\\Users\\Junior '
-   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\warnings.py',
+   'Ferreira\\AppData\\Roaming\\uv\\python\\cpython-3.14.0-windows-x86_64-none\\Lib\\traceback.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\Junior '
