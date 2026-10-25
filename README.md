@@ -6,13 +6,14 @@ Resolve automaticamente o captcha (hCaptcha) do MuAwaY conectando direto no WebV
 
 1. O jogo (`muaway_v3.exe`) abre a janela de captcha dentro de um WebView2 interno.
 2. Uma política de registro (HKLM) liga a depuração remota (`--remote-debugging-port=9222`) só para esse executável.
-3. O `main_2.py` conecta nessa porta (CDP), lê o sitekey da própria URL da página, resolve o hCaptcha via anti-captcha e injeta o token, disparando o `window.chrome.webview.postMessage("hcaptcha=...")` que o jogo espera.
+3. O `main_2captcha.py` conecta nessa porta (CDP), lê o sitekey da URL, cria uma tarefa hCaptcha pela API v2 do 2Captcha e injeta o token por `window.chrome.webview.postMessage("hcaptcha=...")`.
 
 ## Arquivos
 
 | Arquivo | Função |
 |---|---|
-| `main.py` | Script principal desktop (usar este) — fica vigiando e resolve quantos captchas aparecerem |
+| `main.py` | Monitor contínuo com Anti-Captcha e fallback opcional para 2Captcha |
+| `main_2captcha.py` | Monitor contínuo usando somente a API v2 do 2Captcha (recomendado para este teste) |
 | `set_webview_debug.reg` | Chave de registro que habilita a porta CDP 9222 |
 | `SOLUCAO.md` | Explicação técnica de como a solução foi desenvolvida |
 | `.env` | Sua chave da API anti-captcha (não comitar) |
@@ -50,15 +51,30 @@ Crie uma conta em [anti-captcha.com](https://anti-captcha.com), adicione crédit
 CAPTCHA_API_KEY=sua_chave_aqui
 ```
 
-### Fallback 2captcha (opcional)
+### 2Captcha (script recomendado)
 
-Se o anti-captcha ficar sem créditos, o script tenta resolver pelo [2captcha](https://2captcha.com) automaticamente. Basta adicionar no `.env`:
+Configure a chave da API do [2Captcha](https://2captcha.com) no `.env` para executar `main_2captcha.py`:
 
 ```
 CAPTCHA_2CAPTCHA_API_KEY=sua_chave_2captcha_aqui
 ```
 
-O token resolvido pelo 2captcha é injetado no jogo da mesma forma.
+O `main_2captcha.py` usa diretamente a API v2, sem SDK, Anti-Captcha ou fallback.
+O `main.py` continua disponível separadamente e usa Anti-Captcha com fallback 2Captcha.
+
+## Uso diário com 2Captcha
+
+Abra o jogo e faça login até a janela do hCaptcha aparecer. Deixe o script rodando;
+ele monitora o WebView2 e continua ativo até ser encerrado com Ctrl+C. Cada tarefa
+tem limite de resolução de 300 segundos e as consultas à API são registradas no log.
+
+```
+uv run .\main_2captcha.py
+```
+
+O log persistente fica em `logs/main_2captcha.log`. Se uma tarefa atingir o
+timeout, o 2Captcha ainda pode mantê-la ativa; uma tentativa posterior pode criar
+outra tarefa e gerar nova cobrança.
 
 ## Build do executável (sem repo/Python)
 
@@ -73,13 +89,13 @@ Isso gera `dist/mu-captcha-resolver.exe`. Para distribuir, copie o `.exe` junto 
 ## Uso diário
 
 1. Abra o jogo e faça login **até a janela do captcha aparecer** (deixe ela aberta).
-2. Rode:
+2. Para usar somente 2Captcha, rode:
 
 ```
-.venv\Scripts\python main_2.py
+uv run .\main_2captcha.py
 ```
 
-3. Em ~30–60 segundos o captcha é resolvido e a janela fecha sozinha.
+3. O tempo de resolução depende da fila de trabalhadores do 2Captcha.
 
 ## Solução de problemas
 
@@ -87,8 +103,8 @@ Isso gera `dist/mu-captcha-resolver.exe`. Para distribuir, copie o `.exe` junto 
 |---|---|
 | `Nenhuma pagina do captcha encontrada` | A janela do captcha não está aberta no jogo |
 | Timeout ao conectar na porta 9222 | Registro não aplicado, ou jogo aberto **antes** de aplicar o registro (reabra o jogo) |
-| `ERROR_ZERO_BALANCE` | Sem créditos na conta anti-captcha |
-| `CAPTCHA_API_KEY nao definida` | Falta o arquivo `.env` na pasta |
+| `ERROR_ZERO_BALANCE` | Sem créditos na conta do serviço indicado no log |
+| `CAPTCHA_2CAPTCHA_API_KEY não definida` | Configure a chave 2Captcha no `.env` |
 
 ## Desinstalando
 

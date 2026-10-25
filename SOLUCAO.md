@@ -56,11 +56,11 @@ HKLM\SOFTWARE\Policies\Microsoft\Edge\WebView2\AdditionalBrowserArguments
 
 O escopo é só para o executável do jogo — não afeta mais nada no sistema. Com isso, ao abrir o jogo, o WebView2 sobe com a porta 9222 aberta.
 
-### O que o `main_2.py` faz
+### O que os scripts de monitoramento fazem
 
 1. Conecta via `connect_over_cdp("http://localhost:9222")` com Playwright;
 2. Localiza a aba do `captcha.muaway.net` e extrai o sitekey do parâmetro `?sitekey=` da própria URL;
-3. Envia para resolução no anti-captcha (`hCaptchaProxyless`);
+3. O `main_2captcha.py` envia uma tarefa `HCaptchaTaskProxyless` diretamente à API v2 do 2Captcha; o `main.py` continua usando Anti-Captcha com fallback opcional para 2Captcha;
 4. Injeta o token nos textareas `h-captcha-response`/`g-recaptcha-response` e chama `window.chrome.webview.postMessage("hcaptcha=" + token)` — exatamente a mensagem que o `WebMessageReceived` do jogo espera;
 5. O jogo valida o token e fecha a janela do captcha automaticamente.
 
