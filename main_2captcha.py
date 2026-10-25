@@ -133,12 +133,29 @@ def url_sem_parametros(url):
         return "<URL indisponível>"
 
 
+def localizar_arquivo_dotenv():
+    """Localiza .env ao lado do executável ou na raiz do projeto durante o build."""
+    if getattr(sys, "frozen", False):
+        diretorio_aplicacao = Path(sys.executable).resolve().parent
+        candidatos = (
+            diretorio_aplicacao / ".env",
+            diretorio_aplicacao.parent / ".env",
+        )
+    else:
+        candidatos = (Path(__file__).resolve().parent / ".env",)
+
+    return next((caminho for caminho in candidatos if caminho.is_file()), candidatos[0])
+
+
 try:
     from dotenv import load_dotenv
     from playwright.sync_api import sync_playwright
 
-    DOTENV_CARREGADO = load_dotenv()
-    LOGGER.info("load_dotenv() retornou: %s", DOTENV_CARREGADO)
+    CAMINHO_DOTENV = localizar_arquivo_dotenv()
+    DOTENV_CARREGADO = load_dotenv(dotenv_path=CAMINHO_DOTENV)
+    LOGGER.info(
+        "load_dotenv(%s) retornou: %s", CAMINHO_DOTENV, DOTENV_CARREGADO
+    )
 except Exception as erro:
     registrar_excecao("Falha ao importar dependências ou carregar .env", erro)
     raise
@@ -582,5 +599,19 @@ def main():
         return 1
 
 
+def executar():
+    """Executa e mantém o console aberto ao encerrar o executável empacotado."""
+    codigo_saida = main()
+    if getattr(sys, "frozen", False):
+        try:
+            input(
+                f"\nExecução encerrada (código {codigo_saida}). "
+                "Pressione Enter para fechar esta janela..."
+            )
+        except (EOFError, OSError, KeyboardInterrupt):
+            pass
+    return codigo_saida
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(executar())

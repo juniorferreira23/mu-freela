@@ -1,4 +1,6 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 import main_2captcha as solver
@@ -70,6 +72,49 @@ class TwoCaptchaApiTests(unittest.TestCase):
     def test_extract_token_rejects_solution_without_token(self):
         with self.assertRaisesRegex(RuntimeError, "token reconhecido"):
             solver.extrair_token({"solution": {"otherField": "value"}})
+
+    def test_frozen_executable_prefers_dotenv_beside_exe(self):
+        with TemporaryDirectory() as temp_dir:
+            app_dir = Path(temp_dir) / "dist"
+            app_dir.mkdir()
+            adjacent_dotenv = app_dir / ".env"
+            adjacent_dotenv.touch()
+            (Path(temp_dir) / ".env").touch()
+
+            with (
+                patch.object(solver.sys, "frozen", True, create=True),
+                patch.object(solver.sys, "executable", str(app_dir / "app.exe")),
+            ):
+                self.assertEqual(
+                    solver.localizar_arquivo_dotenv(), adjacent_dotenv.resolve()
+                )
+
+    def test_frozen_executable_falls_back_to_project_root_dotenv(self):
+        with TemporaryDirectory() as temp_dir:
+            app_dir = Path(temp_dir) / "dist"
+            app_dir.mkdir()
+            root_dotenv = Path(temp_dir) / ".env"
+            root_dotenv.touch()
+
+            with (
+                patch.object(solver.sys, "frozen", True, create=True),
+                patch.object(solver.sys, "executable", str(app_dir / "app.exe")),
+            ):
+                self.assertEqual(
+                    solver.localizar_arquivo_dotenv(), root_dotenv.resolve()
+                )
+
+    @patch("main_2captcha.input")
+    @patch("main_2captcha.main", return_value=1)
+    def test_packaged_executable_waits_for_enter_before_closing(
+        self, main, input_prompt
+    ):
+        with patch.object(solver.sys, "frozen", True, create=True):
+            codigo_saida = solver.executar()
+
+        self.assertEqual(codigo_saida, 1)
+        main.assert_called_once_with()
+        input_prompt.assert_called_once()
 
 
 if __name__ == "__main__":

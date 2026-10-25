@@ -14,6 +14,8 @@ Resolve automaticamente o captcha (hCaptcha) do MuAwaY conectando direto no WebV
 |---|---|
 | `main.py` | Monitor contínuo com Anti-Captcha e fallback opcional para 2Captcha |
 | `main_2captcha.py` | Monitor contínuo usando somente a API v2 do 2Captcha (recomendado para este teste) |
+| `main_2captcha.spec` | Configuração do executável independente para `main_2captcha.py` |
+| `build-exe-2captcha.ps1` | Script de build do executável independente para 2Captcha |
 | `set_webview_debug.reg` | Chave de registro que habilita a porta CDP 9222 |
 | `SOLUCAO.md` | Explicação técnica de como a solução foi desenvolvida |
 | `.env` | Sua chave da API anti-captcha (não comitar) |
@@ -85,6 +87,23 @@ Para gerar um `.exe` standalone (cliente não precisa de Python nem do repositó
 ```
 
 Isso gera `dist/mu-captcha-resolver.exe`. Para distribuir, copie o `.exe` junto com um arquivo `.env` (modelo em `.env.example`) na mesma pasta — o executável lê o `.env` do diretório de onde ele é executado. Uso idêntico: abra o jogo com a janela de captcha e rode o `.exe`.
+
+### Executável independente para 2Captcha
+
+Para gerar somente a versão que usa a API v2 do 2Captcha:
+
+```
+.\build-exe-2captcha.ps1
+```
+
+Isso gera `dist/mu-captcha-resolver-2captcha.exe`. Distribua esse executável
+com um arquivo `.env` na mesma pasta, contendo `CAPTCHA_2CAPTCHA_API_KEY`.
+Ao rodar o executável dentro de `dist` no projeto, ele também procura o `.env`
+na pasta raiz do projeto. Se o processo terminar, o console aguarda Enter antes
+de fechar para que a mensagem final possa ser lida.
+Esse build não inclui Anti-Captcha nem o SDK Python do 2Captcha. O log fica em
+`logs/main_2captcha.log` ao lado do executável ou, se não houver permissão de
+escrita, na pasta de logs do usuário em `%LOCALAPPDATA%`.
 
 ## Uso diário
 
